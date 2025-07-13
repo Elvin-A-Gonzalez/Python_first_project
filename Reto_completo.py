@@ -19,7 +19,6 @@ elif 12 <= age <= 17:
             time.sleep(1.0)
     else:
         print(f"We're really sorry, you can't enter because you need a pass to enter.")
-    # python Reto_completo.py
 elif age >= 18:
     table = input(f"{name}, Do you wish see the multiplicate table? (Yes/No)").strip().lower()
     if table in ["si", "yes", "sí"]:
